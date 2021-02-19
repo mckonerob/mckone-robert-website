@@ -1,0 +1,42 @@
+@import "../../styles/variables.scss";
+
+.profile-header {
+    background-color:#2e2e2e;
+    margin-top: 5px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    
+    @media (max-width: $media-sm) {
+        flex-direction: column-reverse;
+    }
+
+    .details {
+        background-color: #555555;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+
+        .name {
+            font-size: 40px;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        .slash {
+            font-size: 30px;
+            font-family: monospace;
+        }
+
+        .title {
+            font-size: 24px;
+            display: inline-block;
+        }
+    }
+
+    .image-container {
+        height: 150px;
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
