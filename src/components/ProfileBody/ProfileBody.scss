@@ -1,12 +1,13 @@
 @import "../../styles/variables.scss";
 
 .profile-body {
-    background-color:#616161;
+    //background-color:#616161;
     width:100%;
+    text-align: justify;
 
     .header {
-        background-color: #757575;
-        margin-top: 2px;
+        //background-color: #757575;
+        margin-top: 20px;
         margin-left: 10px;
         font-family: 'Times New Roman', Times, serif;
         font-size: 30px;
@@ -14,32 +15,32 @@
     }
 
     .body {
-        background-color: #4b4b4bfe;
+        //background-color: #4b4b4bfe;
         margin-top: 2px;
         margin-left: 25px;
     }
 
     .company {
-        background-color: #78837e;
+        //background-color: #78837e;
         margin-top: 2px;
         margin-left: 25px;
         font-size: 20px;
     }
 
     .point-title {
-        background-color: #725e72;
+        //background-color: #725e72;
         margin-top: 2px;
         margin-left: 40px;
     }
 
     .point-description {
-        background-color: #5c5f35;
-        margin-top: 2px;
+        //background-color: #5c5f35;
+        margin-top: 4px;
         margin-left: 50px;
     }
 
     .point-level {
-        background-color: #b66b6b;
+        //background-color: #b66b6b;
         margin-top: 2px;
         margin-left: 50px;
     }

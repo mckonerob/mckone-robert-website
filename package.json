@@ -2,6 +2,7 @@
     "name": "my-app",
     "version": "0.1.0",
     "private": true,
+    "homepage": "https://mckonerob.github.io/mckone-robert-website",
     "dependencies": {
         "@fortawesome/fontawesome-free": "^5.15.2",
         "@fortawesome/free-solid-svg-icons": "^5.15.2",
@@ -18,6 +19,7 @@
         "font-awesome": "^4.7.0",
         "gh": "^2.0.9",
         "gh-pages-deploy": "^0.5.1",
+        "git": "^0.1.5",
         "node-sass": "^5.0.0",
         "npm-install-all": "^1.1.21",
         "react": "^17.0.1",
@@ -32,8 +34,7 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "homepage": "https://mckonerob.github.io/mckone-robert-website",
-        "predeploy": "npm run build",
+        "predeploy": "yarn run build",
         "deploy": "gh-pages -d build"
     },
     "eslintConfig": {

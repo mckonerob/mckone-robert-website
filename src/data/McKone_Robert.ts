@@ -17,7 +17,7 @@ const McKone_Robert: Profile = {
     },
 
     about: {
-        bio: "My name is Robert.",
+        bio: "Electrical and Data Engineer with experience in a wide range of technical projects.  Fluent in Mathematica, there is usually the need for being able to program in multiple languages, as most projects require knowledge of not just a single language, but also able to incorporate new and emerging technology.",
     },
 
     work: [

@@ -1,8 +1,8 @@
 @import "../../styles/variables.scss";
 
 .profile-header {
-    background-color:#2e2e2e;
-    margin-top: 5px;
+    background-color: None;
+    margin-top: 10px;
     width:100%;
     display: flex;
     justify-content: space-between;
@@ -12,9 +12,10 @@
     }
 
     .details {
-        background-color: #555555;
+        //background-color: #555555;
         font-family: 'Times New Roman', Times, serif;
         text-align: center;
+        text-decoration: none;
 
         .name {
             font-size: 40px;
@@ -30,6 +31,10 @@
         .title {
             font-size: 24px;
             display: inline-block;
+        }
+
+        .link {
+            color: #b8b8b8;
         }
     }
 
